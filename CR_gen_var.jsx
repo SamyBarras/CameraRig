@@ -18,7 +18,7 @@ CR.scriptsFolder = Folder(decodeURI(startupFolder) + "/Scripts/("+CR_scriptName+
 //
 var PresetsFolder = new Object();
 PresetsFolder.location = "external"; // "local" or "external" [in this case define PresetsFolder.externalpath]
-PresetsFolder.external = "T:/Team/01_RESOURCES/AFTER_EFFECTS/Presets/CR_PRESETS/"; // path as string
+PresetsFolder.external = "PresetsDirectory/"; // path as string
 //
 var BakeAnim= new Object();
 BakeAnim.FolderLocation = "local"; // "external" [in this case define PresetsFolder.externalpath]
