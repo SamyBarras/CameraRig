@@ -14,7 +14,7 @@ var CR = new Object();	// Store globals in an object
 CR.version = "4.0";
 CR_scriptName = "CameraRig v" + CR.version;
 CR_EffectPanelName = "CameraRig_ControlPanel v4.0"; // the name of effect installed in "PresetEffexts.xml" file
-CR.scriptsFolder = Folder(decodeURI(startupFolder) + "/Scripts/("+CR_scriptName+")/");
+CR.scriptsFolder = Folder(decodeURI(startupFolder) + "/Scripts/("+CR_scriptName+"/)");
 //
 var PresetsFolder = new Object();
 PresetsFolder.location = "external"; // "local" or "external" [in this case define PresetsFolder.externalpath]
