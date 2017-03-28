@@ -1,0 +1,30 @@
+﻿<Effects>
+	<Effect matchname="CameraRig_ControlPanel v4.0" name="CameraRig_ControlPanel" version="4.0">
+		<Slider name="Focal Length" default="50" valid_min="1" valid_max="200" CANNOT_TIME_VARY="false" precision="1" DISPLAY_PERCENT="false" DISPLAY_PIXEL="false"/>
+		<Group name="Rotation Controllers">
+			<Checkbox name="Use Look at (X/Y rotation)" default="true" CANNOT_TIME_VARY="false"/>
+			<Point name="Look at" default_x="0" default_y="0" CANNOT_TIME_VARY="false"/>
+			<Angle name="Default X Rotation" default="0" CANNOT_TIME_VARY="false"/>
+			<Angle name="Default Y Rotation" default="0" CANNOT_TIME_VARY="false"/>
+			<Angle name="Default Z Rotation" default="0" CANNOT_TIME_VARY="false"/>
+		</Group>
+		<Group name="Position Controllers">
+			<Slider name="X Position" default="960" valid_min="-10000" valid_max="10000" CANNOT_TIME_VARY="false" precision="1" DISPLAY_PERCENT="false" DISPLAY_PIXEL="false"/>
+			<Slider name="Y Position" default="540" valid_min="-10000" valid_max="10000" CANNOT_TIME_VARY="false" precision="1" DISPLAY_PERCENT="false" DISPLAY_PIXEL="false"/>
+			<Slider name="Z Position" default="0" valid_min="-10000" valid_max="10000" CANNOT_TIME_VARY="false" precision="1" DISPLAY_PERCENT="false" DISPLAY_PIXEL="false"/>
+		</Group>
+		<Group name="Tracking">
+			<Popup name="Tracking Type" popup_string="Don't Track|Position|Rotation" default="1" CANNOT_TIME_VARY="false"/>
+			<Layer name="Track Layer" default_self="true"/>
+			<Group name="Position Multipliers">
+				<Slider name="Position X Position Multiplier" default="1" slider_min="0" slider_max="10" valid_min="-100" valid_max="100" CANNOT_TIME_VARY="false" precision="3" DISPLAY_PERCENT="false" DISPLAY_PIXEL="false"/>
+				<Slider name="Position Y Position Multiplier" default="1" slider_min="0" slider_max="10" valid_min="-100" valid_max="100" CANNOT_TIME_VARY="false" precision="3" DISPLAY_PERCENT="false" DISPLAY_PIXEL="false"/>
+			</Group>
+			<Group name="Rotation Multipliers">
+				<Slider name="Rotation X Position Multiplier" default="1" slider_min="0" slider_max="10" valid_min="-100" valid_max="100" CANNOT_TIME_VARY="false" precision="3" DISPLAY_PERCENT="false" DISPLAY_PIXEL="false"/>
+				<Slider name="Rotation Y Position Multiplier" default="1" slider_min="0" slider_max="10" valid_min="-100" valid_max="100" CANNOT_TIME_VARY="false" precision="3" DISPLAY_PERCENT="false" DISPLAY_PIXEL="false"/>
+			</Group>
+			<Slider name="Z Rotation Multiplier" default="1" slider_min="0" slider_max="10" valid_min="-100" valid_max="100" CANNOT_TIME_VARY="false" precision="3" DISPLAY_PERCENT="false" DISPLAY_PIXEL="false"/>
+		</Group>
+	</Effect>
+</Effects>
